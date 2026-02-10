@@ -6,7 +6,7 @@ public class Solution {
          */
         int m = text1.length();
         int n = text2.length();
-
+        //This is our base case
         int[][] dp = new int[m + 1][n + 1];
 
         for (int i = 1; i <= m; i++) {
